@@ -1,0 +1,9 @@
+{
+  "manifest_version": 2,
+  "name": "Gearbox Health Metrics",
+  "version": "0.1",
+  "content_scripts": [{
+    "matches": ["https://app.gearbox.fi/*"],
+    "js": ["jquery-3.4.1.min.js", "content.js"]
+  }]
+}
